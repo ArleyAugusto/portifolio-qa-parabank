@@ -26,7 +26,7 @@ When ('eu informar um username válido e senha incorreta', () => {
 })
 
 Then ('devo visualizar uma mensagem de erro, me impedindo de realizar o login na conta', () => {
-    cy.contains('The username and password could not be verified.');
+    cy.contains('Error!');
 })
 
 //CT012
